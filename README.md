@@ -2,7 +2,7 @@
 
 ## Wi-Fi dongle
 
-### Fedora - Back to last ok kernel
+### Back to last ok kernel (Fedora)
 
 Install the kernel
 
@@ -64,10 +64,10 @@ sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp
 
 ```
 sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-
+sudo dnf install -y git dkms flameshot remmina stacer vim vlc gimp
 ```
 
-## Package download
+## Package download
 
 Teams : https://www.microsoft.com/fr-fr/microsoft-365/microsoft-teams/download-app
 Slack : https://slack.com/intl/fr-fr/downloads/linux
