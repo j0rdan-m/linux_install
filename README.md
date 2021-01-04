@@ -2,7 +2,7 @@
 
 ## Wi-Fi dongle
 
-### [Fedora] Back to last ok kernel
+### Fedora - Back to last ok kernel
 
 Install the kernel
 
