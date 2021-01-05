@@ -76,10 +76,19 @@ sudo dnf install -y git dkms flameshot remmina stacer vim vlc gimp
 ## Package download
 
 Teams : https://www.microsoft.com/fr-fr/microsoft-365/microsoft-teams/download-app
+
 Slack : https://slack.com/intl/fr-fr/downloads/linux
+
 Zoom : https://zoom.us/download?os=linux
+
 Cozy Drive : https://docs.cozy.io/en/howTos/sync/linux/
+
 pcloud : https://www.pcloud.com/fr/how-to-install-pcloud-drive-linux.html
+
 WPS : https://linux.wps.com/
+
 Discord : (deb or tar.gz : https://discord.com/download)
+
 vscode : https://code.visualstudio.com/download
+
+Citrix Workspace : https://www.citrix.com/fr-fr/downloads/workspace-app/linux/workspace-app-for-linux-latest.html
