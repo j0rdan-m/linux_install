@@ -91,4 +91,23 @@ Discord : (deb or tar.gz : https://discord.com/download)
 
 vscode : https://code.visualstudio.com/download
 
+## Citrix Workspace
+
+### Download
+
 Citrix Workspace : https://www.citrix.com/fr-fr/downloads/workspace-app/linux/workspace-app-for-linux-latest.html
+
+### Certificate management
+
+
+For SBM : 
+
+  * Fedora: 
+
+On firefox, download the PEM GlobalSign Root CA. 
+Copy it on /opt/Citrix/ICAClient/keystore/cacerts/
+run ```sudo ./ctx_rehash```
+
+  * Ubuntu : 
+
+run ``̀`sudo cp /usr/share/ca-certificates/mozilla/*.crt /opt/Citrix/ICAClient/keystore/cacerts/```
