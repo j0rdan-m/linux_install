@@ -52,6 +52,12 @@ go there :
   * [gnome shell extension](https://extensions.gnome.org/)
   * ```sudo dnf install gnome-tweak-tool```
   
+### extensions
+
+  * https://extensions.gnome.org/extension/2890/tray-icons-reloaded/
+  * https://extensions.gnome.org/extension/307/dash-to-dock/
+  * https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+  
 ## From package manager
 
 ### apt
