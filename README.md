@@ -104,10 +104,10 @@ For SBM :
 
   * Fedora: 
 
-On firefox, download the PEM GlobalSign Root CA. 
-Copy it on /opt/Citrix/ICAClient/keystore/cacerts/
+On firefox, download the PEM GlobalSign Root CA.  
+Copy it on /opt/Citrix/ICAClient/keystore/cacerts/  
 run ```sudo ./ctx_rehash```
 
   * Ubuntu : 
 
-run ``̀`sudo cp /usr/share/ca-certificates/mozilla/*.crt /opt/Citrix/ICAClient/keystore/cacerts/```
+run ```sudo cp /usr/share/ca-certificates/mozilla/*.crt /opt/Citrix/ICAClient/keystore/cacerts/```
