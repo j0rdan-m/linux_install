@@ -51,6 +51,7 @@ go there :
 
   * [gnome shell extension](https://extensions.gnome.org/)
   * ```sudo dnf install gnome-tweak-tool```
+  * ```sudo apt install gnome-tweak-tool```
   
 ### extensions
 
@@ -63,7 +64,7 @@ go there :
 ### apt
 
 ```
-sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp
+sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp gnome-tweak-tool
 ```
 
 ### dnf
