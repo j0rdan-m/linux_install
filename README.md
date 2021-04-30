@@ -117,3 +117,9 @@ run ```sudo cp /usr/share/ca-certificates/mozilla/*.crt /opt/Citrix/ICAClient/ke
 
 ```sudo apt-get install fontforge cabextract```
 ```wget https://gist.github.com/maxwelleite/10774746/raw/ttf-vista-fonts-installer.sh -q -O - | sudo bash```
+
+## Tips
+
+### update-host alias
+
+```alias update-host="sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y"```
