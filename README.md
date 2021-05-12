@@ -30,6 +30,7 @@ sudo dnf downgrade kernel
 
 Avoid kernel update: Add ```exclude=kernel*``` to the file /etc/dnf/dnf.conf
 
+## Install wifi dongle drivers
 
 ```
 git clone https://github.com/cilynx/rtl88x2bu.git
