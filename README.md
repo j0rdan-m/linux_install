@@ -98,6 +98,8 @@ Discord : (deb or tar.gz : https://discord.com/download)
 
 vscode : https://code.visualstudio.com/download
 
+balena etcher : https://www.balena.io/etcher/
+
 ## Citrix Workspace
 
 ### Download
