@@ -53,6 +53,11 @@ go there :
   * [gnome shell extension](https://extensions.gnome.org/)
   * ```sudo dnf install gnome-tweak-tool```
   * ```sudo apt install gnome-tweak-tool```
+
+### themes
+
+  * gnome application : https://www.gnome-look.org/p/1297346/
+  * gnome shell : https://www.gnome-look.org/p/1013030/
   
 ### extensions
 
