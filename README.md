@@ -121,6 +121,8 @@ run ```sudo ./ctx_rehash``` on /opt/Citrix/ICAClient/util
 
 run ```sudo cp /usr/share/ca-certificates/mozilla/*.crt /opt/Citrix/ICAClient/keystore/cacerts/```
 
+  * Manual download : https://www.tbs-certificats.com/FAQ/fr/gsgccr3dvtlsca2020.html
+
 ## Microsoft fonts
 
 ```sudo apt-get install fontforge cabextract```
