@@ -126,6 +126,7 @@ run ```sudo cp /usr/share/ca-certificates/mozilla/*.crt /opt/Citrix/ICAClient/ke
 ## Microsoft fonts
 
 ```sudo apt-get install fontforge cabextract```
+
 ```wget https://gist.github.com/maxwelleite/10774746/raw/ttf-vista-fonts-installer.sh -q -O - | sudo bash```
 
 ## Tips
