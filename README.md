@@ -46,7 +46,9 @@ sudo modprobe 88x2bu
 ### Install bluetooth dongle
 
 Download the drivers here : https://www.xmpow.com/pages/download
+
 Get the MPOW BH456A one
+
 (if still available : `wget https://mpow.s3-us-west-1.amazonaws.com/20201202_mpow_BH456A_driver+for+Linux.7z` )
 
 Then unzip the 20201202_mpow_BH456A_driver+for+Linux.7z files (version coudl change)
