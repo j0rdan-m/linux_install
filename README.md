@@ -32,6 +32,16 @@ Avoid kernel update: Add ```exclude=kernel*``` to the file /etc/dnf/dnf.conf
 
 ### Install wifi dongle drivers
 
+```
+git clone "https://github.com/RinCat/RTL88x2BU-Linux-Driver.git"
+cd RTL88x2BU-Linux-Driver
+make clean
+make
+sudo make install
+```
+
+#### Old version
+
 if needed, uninstall the previous driver : `sudo dkms remove rtl88x2bu/5.8.7.4 --all
 `
 
