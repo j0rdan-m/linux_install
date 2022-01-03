@@ -162,6 +162,14 @@ run ```sudo cp /usr/share/ca-certificates/mozilla/*.crt /opt/Citrix/ICAClient/ke
 
 ```wget https://gist.github.com/maxwelleite/10774746/raw/ttf-vista-fonts-installer.sh -q -O - | sudo bash```
 
+## DAVinci resolve
+
+https://www.blackmagicdesign.com/fr/products/davinciresolve/
+
+### Intel grphic drivers for DaVinci resolve
+
+https://github.com/intel/compute-runtime/releases
+
 ## Tips
 
 ### update-host alias
