@@ -76,6 +76,20 @@ sudo cp rtkbt-firmware/lib/firmware/rtl8761bu_config /lib/firmware/
 
 ```
 
+### Bluetooth update for MX Keys mini
+
+```
+cd /lib/firmware/brcm && sudo wget https://github.com/winterheart/broadcom-bt-firmware/raw/master/brcm/BCM20702A1-0a5c-21e8.hcd
+```
+
+Remove and re-plug the dongle
+
+```
+bluetoothctl connect CB:DD:B4:5C:4E:E3
+bluetoothctl trust CB:DD:B4:5C:4E:E3
+bluetoothctl pair CB:DD:B4:5C:4E:E3
+```
+
 ## bitwarden extension 
 
 go there : 
