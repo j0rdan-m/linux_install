@@ -117,7 +117,7 @@ go there :
 ### apt
 
 ```
-sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp gnome-tweak-tool
+sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp tabby-terminal blueman solaar
 ```
 
 ### dnf
