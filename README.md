@@ -119,7 +119,7 @@ go there :
 ### apt
 
 ```
-sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp tabby-terminal blueman solaar plank
+sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman solaar plank
 ```
 
 ### dnf
@@ -148,6 +148,8 @@ Discord : (deb or tar.gz : https://discord.com/download)
 vscode : https://code.visualstudio.com/download
 
 balena etcher : https://www.balena.io/etcher/
+
+tabby terminal : https://github.com/Eugeny/tabby/releases/tag/v1.0.179
 
 ## Citrix Workspace
 
