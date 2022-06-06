@@ -151,6 +151,8 @@ balena etcher : https://www.balena.io/etcher/
 
 tabby terminal : https://github.com/Eugeny/tabby/releases/tag/v1.0.179
 
+appImageLauncher : https://github.com/TheAssassin/AppImageLauncher/releases
+
 ## Citrix Workspace
 
 ### Download
