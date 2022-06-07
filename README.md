@@ -119,7 +119,8 @@ go there :
 ### apt
 
 ```
-sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman solaar plank
+sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman plank
+sudo add-apt-repository ppa:solaar-unifying/ppa -y && sudo apt update && sudo apt install solaar -y
 ```
 
 ### dnf
