@@ -92,7 +92,7 @@ bluetoothctl trust CB:DD:B4:5C:4E:E3
 bluetoothctl pair CB:DD:B4:5C:4E:E3
 ```
 
-## bitwarden extension 
+## bitwarden extension
 
 go there : 
   * [bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
@@ -119,7 +119,7 @@ go there :
 ### apt
 
 ```
-sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman plank
+sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman plank fonts-firacode
 sudo add-apt-repository ppa:solaar-unifying/ppa -y && sudo apt update && sudo apt install solaar -y
 ```
 
@@ -184,6 +184,15 @@ sudo apt-get install fontforge cabextract
 wget https://gist.github.com/maxwelleite/10774746/raw/ttf-vista-fonts-installer.sh -q -O - | sudo bash
 wget http://download.tuxfamily.org/polyglotte/archives/msfonts-config2.zip
 sudo unzip msfonts-config2.zip -d /etc/fonts/
+```
+
+## JetBrains fonts
+
+```
+wget https://download.jetbrains.com/fonts/JetBrainsMono-2.242.zip
+unzip JetBrainsMono-2.242.zip
+cd fonts/ttf
+sudo mv JetBrainsMono-*.ttf /usr/share/fonts/
 ```
 
 ## DAVinci resolve
