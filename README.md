@@ -119,7 +119,7 @@ go there :
 ### apt
 
 ```
-sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman plank fonts-firacode
+sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman plank fonts-firacode baobab flatpak libreoffice-base
 sudo add-apt-repository ppa:solaar-unifying/ppa -y && sudo apt update && sudo apt install solaar -y
 ```
 
