@@ -119,7 +119,7 @@ go there :
 ### apt
 
 ```
-sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman plank fonts-firacode baobab flatpak libreoffice-base
+sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman plank fonts-firacode baobab flatpak libreoffice-base crowdsec
 sudo add-apt-repository ppa:solaar-unifying/ppa -y && sudo apt update && sudo apt install solaar -y
 ```
 
@@ -153,6 +153,14 @@ balena etcher : https://www.balena.io/etcher/
 tabby terminal : https://github.com/Eugeny/tabby/releases/tag/v1.0.179
 
 appImageLauncher : https://github.com/TheAssassin/AppImageLauncher/releases
+
+### Security
+
+Portmaster : https://safing.io/
+ProtonVPN : https://protonvpn.com/support/fr/official-linux-vpn-ubuntu
+Windscribe : https://fra.windscribe.com/download/
+Hide.me : https://hide.me/fr/software/linux
+
 
 ## Citrix Workspace
 
