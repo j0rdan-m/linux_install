@@ -119,7 +119,7 @@ go there :
 ### apt
 
 ```
-sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman fonts-firacode baobab flatpak crowdsec docker.io docker-compose-v2 
+sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman fonts-firacode baobab flatpak crowdsec docker.io docker-compose-v2 filezilla
 sudo add-apt-repository ppa:solaar-unifying/ppa -y && sudo apt update && sudo apt install solaar -y
 ```
 
