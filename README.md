@@ -119,7 +119,7 @@ go there :
 ### apt
 
 ```
-sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman plank fonts-firacode baobab flatpak libreoffice-base crowdsec
+sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman fonts-firacode baobab flatpak crowdsec docker.io docker-compose-v2 
 sudo add-apt-repository ppa:solaar-unifying/ppa -y && sudo apt update && sudo apt install solaar -y
 ```
 
@@ -144,22 +144,26 @@ pcloud : https://www.pcloud.com/fr/how-to-install-pcloud-drive-linux.html
 
 WPS : https://linux.wps.com/
 
-Discord : (deb or tar.gz : https://discord.com/download)
+Signal : https://signal.org/fr/download/linux/
 
 vscode : https://code.visualstudio.com/download
 
 balena etcher : https://www.balena.io/etcher/
 
-tabby terminal : https://github.com/Eugeny/tabby/releases/tag/v1.0.179
-
 appImageLauncher : https://github.com/TheAssassin/AppImageLauncher/releases
+
+zed : 
+```
+curl -sS https://debian.griffo.io/EA0F721D231FDD3A0A17B9AC7808B4DD62C41256.asc | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/debian.griffo.io.gpg
+echo "deb https://debian.griffo.io/apt jammy main" | sudo tee /etc/apt/sources.list.d/debian.griffo.io.list
+sudo apt update
+```
 
 ### Security
 
 Portmaster : https://safing.io/
 ProtonVPN : https://protonvpn.com/support/fr/official-linux-vpn-ubuntu
 Windscribe : https://fra.windscribe.com/download/
-Hide.me : https://hide.me/fr/software/linux
 
 
 ## Citrix Workspace
@@ -169,9 +173,6 @@ Hide.me : https://hide.me/fr/software/linux
 Citrix Workspace : https://www.citrix.com/fr-fr/downloads/workspace-app/linux/workspace-app-for-linux-latest.html
 
 ### Certificate management
-
-
-For SBM : 
 
   * Fedora: 
 
@@ -203,16 +204,3 @@ cd fonts/ttf
 sudo mv JetBrainsMono-*.ttf /usr/share/fonts/
 ```
 
-## DAVinci resolve
-
-https://www.blackmagicdesign.com/fr/products/davinciresolve/
-
-### Intel grphic drivers for DaVinci resolve
-
-https://github.com/intel/compute-runtime/releases
-
-## Tips
-
-### update-host alias
-
-```alias update-host="sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y"```
