@@ -119,7 +119,7 @@ go there :
 ### apt
 
 ```
-sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman fonts-firacode baobab flatpak crowdsec docker.io docker-compose-v2 filezilla
+sudo apt install -y git dkms flameshot remmina stacer vim vlc gimp blueman fonts-firacode baobab flatpak docker.io docker-compose-v2 filezilla
 sudo add-apt-repository ppa:solaar-unifying/ppa -y && sudo apt update && sudo apt install solaar -y
 ```
 
@@ -161,6 +161,7 @@ sudo apt update
 
 ### Security
 
+Crowdsec : curl -s https://install.crowdsec.net | sudo sh
 Portmaster : https://safing.io/
 ProtonVPN : https://protonvpn.com/support/fr/official-linux-vpn-ubuntu
 Windscribe : https://fra.windscribe.com/download/
