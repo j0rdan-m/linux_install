@@ -48,6 +48,10 @@ Vagrant.configure("2") do |config|
     # Bannière au démarrage pour l'utilisateur
     echo "Bienvenue sur la machine de pentest. Logs et traces redirigés vers /dev/shm." > /etc/motd
 
+    # Installation windscribe
+    wget https://deploy.totallyacdn.com/desktop-apps/2.23.11/windscribe_2.23.11_amd64.deb
+    sudo apt install ./windscribe_2.23.11_amd64.deb
+
   SHELL
 
   # 5. Ajouter un reboot après la configuration
